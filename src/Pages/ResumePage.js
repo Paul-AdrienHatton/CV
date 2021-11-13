@@ -9,7 +9,7 @@ function ResumePage() {
   return (
     <MainLayout>
       <TitleStyled>
-        <Title title={"Mes compétences"} span={"my skills"} />
+        <Title title={"Mes compétences"} span={"Mes compétences"} />
       </TitleStyled>
       <SectionStyled>
         <Skills />

@@ -41,6 +41,7 @@ const TitleStyled = styled.section`
   }
 `;
 const SecondTitleStyled = styled.section`
+  margin-top: 20px;
   animation: slide-bottom 1.6s ease-in-out both;
   @keyframes slide-bottom {
     0% {

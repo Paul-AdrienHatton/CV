@@ -18,7 +18,7 @@ const TitleStyled = styled.div`
   position: relative;
   h2 {
     color: var(--white-color);
-    font-size: 3.1rem;
+    font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
@@ -43,7 +43,7 @@ const TitleStyled = styled.div`
       content: "";
       position: absolute;
       bottom: 0;
-      width: 6.5rem;
+      width: 6rem;
       height: 0.33rem;
       background-color: var(--primary-color);
       border-radius: 15px;
@@ -52,9 +52,9 @@ const TitleStyled = styled.div`
     span {
       font-weight: 900;
       color: rgba(25, 29, 43, 0.04);
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       position: absolute;
-      left: 0;
+      left: 2px;
       top: 30%;
       z-index: -1;
       @media screen and (max-width: 620px) {
@@ -63,8 +63,8 @@ const TitleStyled = styled.div`
       @media screen and (max-width: 496px) {
         font-size: 3rem;
       }
-      @media screen and (max-width: 370px) {
-        font-size: 2rem;
+      @media screen and (max-width: 400px) {
+        font-size: 2.8rem;
       }
     }
   }
