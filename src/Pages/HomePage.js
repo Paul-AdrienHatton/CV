@@ -4,9 +4,25 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import Particle from "../Components/Particle";
-import Typical from "react-typical";
+import Typing from "react-typing-animation";
 
 function HomePage() {
+  const AnimatedTypingComponent = () => (
+    <Typing loop={true} speed={1}>
+      <span>je m'appelle Paul-Adrien</span>
+      <Typing.Delay ms={3000} />
+      <Typing.Backspace count={30} />
+      <Typing.Reset count={1} delay={2000} />
+      <span>je suis développeur web junior</span>
+      <Typing.Delay ms={3000} />
+      <Typing.Backspace count={30} />
+      <Typing.Reset count={1} delay={2000} />
+      <span>je recherche une alternance</span>
+      <Typing.Delay ms={3000} />
+      <Typing.Backspace count={30} />
+      <Typing.Reset count={1} delay={2000} />
+    </Typing>
+  );
   return (
     <HomePageStyled>
       <div className="particle-con">
@@ -15,27 +31,16 @@ function HomePage() {
       <div className="typography">
         <h1 className="title">Bonjour</h1>
         <div>
-          <Typical
-            loop={Infinity}
-            wrapper="p"
-            steps={[
-              " je m'appelle Paul-Adrien",
-              10000,
-              " je suis développeur web junior",
-              10000,
-              " je recherche une alternance",
-              10000,
-            ]}
-          />
+          <AnimatedTypingComponent />
         </div>
         <br />
         <p>
           Actuellement en fin de formation de développeur web chez
           OpenClassrooms, je suis à la recherche d'une alternance afin de
           poursuivre mes études dans le domaine du développement web. Vous
-          retrouverez sur ce site mes informations personnelles et
-          professionnels, ainsi que la possibilité de télécharger directement un
-          Cv sous le format PDF, bonne visite à vous.
+          trouverez sur ce site mes informations personnelles et
+          professionnelles, ainsi que la possibilité de télécharger directement
+          un Cv sous le format PDF, bonne visite à vous.
         </p>
         <div className="icons">
           <a
@@ -81,6 +86,10 @@ const HomePageStyled = styled.header`
     transform: translate(-50%, -50%);
     text-align: center;
     width: 80%;
+    span {
+      font-size: 30px;
+      color: var(--primary-color);
+    }
     .icons {
       display: flex;
       justify-content: center;
@@ -94,7 +103,6 @@ const HomePageStyled = styled.header`
         transition: all 0.4s ease-in-out;
         cursor: pointer;
         box-shadow: var(--box-shadow);
-
         &:hover {
           border: 2px solid var(--primary-color);
           color: var(--primary-color);
@@ -143,6 +151,10 @@ const HomePageStyled = styled.header`
     h1 {
       margin-top: 200px;
     }
+    .typography {
+      span {
+        font-size: 20px;
+      }
   }
 `;
 

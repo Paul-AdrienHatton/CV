@@ -15,7 +15,7 @@ function ResumePage() {
         <Skills />
       </SectionStyled>
       <SecondTitleStyled>
-        <Title title={"Resume"} span={"resume"} />
+        <Title title={"Résumé"} span={"resume"} />
       </SecondTitleStyled>
       <SectionStyled>
         <Resume />

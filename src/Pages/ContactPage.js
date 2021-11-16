@@ -25,7 +25,7 @@ function ContactPage() {
               <div className="contact-title">
                 <h4>Prendre contact</h4>
               </div>
-              <p>Vous pouvez me joindre au coordonnées suivante :</p>
+              <p>Vous pouvez me joindre aux coordonnées suivantes :</p>
               <br />
               <p>Ou me contacter directement sur mon profil linkedIn </p>
               <br />
@@ -81,8 +81,8 @@ const ContactPageStyled = styled.section`
       }
     }
     .linkedin {
-      width: 350px;
       text-align: center;
+      margin-top: 0.5rem;
       margin-bottom: 3rem;
     }
     .icon:hover {

@@ -16,14 +16,14 @@ function ImageSection() {
           <span>Paul-Adrien</span>
         </h4>
         <p className="paragraph">
-          En reconvertion professionnels et après une formation chez
+          En reconversion professionnelle et après une formation chez
           OpenClassrooms, je suis à la recherche d'une alternance afin de mettre
-          en oeuvre mes acquis et établir une première expèrience professionnel
-          en temps que développeur Web.
+          en oeuvre mes acquis et établir une première expérience
+          professionnelle en temps que développeur Web.
         </p>
         <div className="about-info">
           <div className="info-title">
-            <p>Full Name</p>
+            <p>Nom et prénom</p>
             <p>Age</p>
             <p>Nationality </p>
             <p>Languages </p>
@@ -31,7 +31,7 @@ function ImageSection() {
             <p>Recherche</p>
           </div>
           <div className="info">
-            <p>: Paul-Adrien Hatton</p>
+            <p>: Hatton Paul-Adrien</p>
             <p>: 26</p>
             <p>: Française </p>
             <p>: Anglais, Français </p>

@@ -12,7 +12,7 @@ function Navigation() {
       <ul className="nav-items">
         <li className="nav-item">
           <NavLink to="/cv/" activeClassName="active-class" exact>
-            Acceuil
+            Accueil
           </NavLink>
         </li>
         <li className="nav-item">

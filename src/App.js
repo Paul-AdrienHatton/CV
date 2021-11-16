@@ -32,8 +32,14 @@ function App() {
     }
   };
 
+  function navAppearance() {
+    if (navToggle === true) {
+      setNavToggle(false);
+    }
+  }
+
   return (
-    <div className="App">
+    <div className="App" onClick={() => navAppearance()}>
       <Sidebar navToggle={navToggle} />
 
       <div className="theme">

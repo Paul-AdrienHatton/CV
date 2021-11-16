@@ -13,7 +13,7 @@ function Resume() {
     <ResumeStyled>
       <InnerLayout>
         <div className="small-title">
-          <SmallTitle icon={briefcase} title={"Expèrience de travail"} />
+          <SmallTitle icon={briefcase} title={"Expérience de travail"} />
         </div>
         <div className="resume-content">
           <ResumeItem
@@ -21,7 +21,7 @@ function Resume() {
             title={"Création d’un site web"}
             subTitle={"A.L. BAUR Vigneron Indépendant VOEGTLINSHOFFEN"}
             text={
-              "Création d’un site web à titre indépendant pour l’entreprise de vente de vin. Création du site complet avec WIX, design du logo, référencement et mise à jour du site. "
+              "Création du site commercial Web de la société de vigneron A. L. Baur. Il repose sur WIX, je me suis chargé du design du logo et du référencement du site. Je suis également en charge de sa mise à jour."
             }
           />
           <ResumeItem
@@ -29,7 +29,7 @@ function Resume() {
             title={"BARMAN"}
             subTitle={"Groupe SAS STRASRESTO"}
             text={
-              "Barman dans plusieurs bars du groupe, responsable des réservations clients, gestion du stock et commande des marchandises. Entretien du bar et préparation des boissons chaudes et froides."
+              "Barman dans plusieurs établissements du groupe. Gestion du bar (commande, gestion des stocks, réception des marchandises)."
             }
           />
           <ResumeItem
@@ -37,12 +37,12 @@ function Resume() {
             title={"INTÉRIM "}
             subTitle={"Sofame le mans"}
             text={
-              "Manutention, montage de mobilier industrielle suivie avec le bureau d’étude, emballage et gestion de l’expédition des commandes. "
+              "Montage et manutention de mobilier industriel. Suivi, gestion et préparation des commandes avec le bureau d'étude. "
             }
           />
         </div>
         <div className="small-title u-small-title-margin">
-          <SmallTitle icon={school} title={"Dîplomes"} />
+          <SmallTitle icon={school} title={"Dîplome"} />
         </div>
         <div className="resume-content ">
           <ResumeItem
@@ -58,7 +58,7 @@ function Resume() {
             title={"Ecofac Business School de Rennes"}
             subTitle={"Communication"}
             text={
-              "Première année de BTS communication, apprentissage du marketing, de la Programmation Assisté par Ordinateur, différents projets organisés et suivis (Recherche de sponsor, phoning et mailing pour le projet et le client). Acquis de compétences en stratégie de communication et en stratégie commerciale. "
+              "Première année de BTS communication, apprentissage du marketing, de la Programmation Assistée par Ordinateur, différents projets organisés et suivis (Recherche de sponsor, phoning et mailing pour le projet et le client). Acquis de compétences en stratégie de communication et en stratégie commerciale. "
             }
           />
           <ResumeItem
@@ -68,7 +68,15 @@ function Resume() {
               "Langues Littératures Civilisations Étrangères en Anglais"
             }
             text={
-              "1ère année de LLCE (Langues Littératures Civilisations Étrangères) apprentissage de la culture et des langues anglophones. Revue de presse, études d'oeuvre anglophones. Expression et compréhension écrite et oral, traduction de texte de l'anglais vers le français et du français vers l'anglais. "
+              "Première année de LLCE (Langues Littératures Civilisations Étrangères) apprentissage de la culture et des langues anglophones. Revue de presse, études d'oeuvres anglophones. Expression et compréhension écrites et orales, traduction de textes de l'anglais vers le français et du français vers l'anglais. "
+            }
+          />
+          <ResumeItem
+            year={"2015"}
+            title={"Lycée Montesquieu au Mans"}
+            subTitle={"Baccalauréat Série Littéraire"}
+            text={
+              "Baccalauréat série littéraire, avec option littérature anglaise et anglais renforcé (niveau C1). "
             }
           />
         </div>
