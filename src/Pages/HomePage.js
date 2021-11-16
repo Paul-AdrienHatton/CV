@@ -40,7 +40,7 @@ function HomePage() {
           poursuivre mes études dans le domaine du développement web. Vous
           trouverez sur ce site mes informations personnelles et
           professionnelles, ainsi que la possibilité de télécharger directement
-          un Cv sous le format PDF, bonne visite à vous.
+          un Cv au format pdf, bonne visite à vous.
         </p>
         <div className="icons">
           <a
