@@ -46,7 +46,7 @@ function Resume() {
         </div>
         <div className="resume-content ">
           <ResumeItem
-            year={"2021 - En cours"}
+            year={"2021 - 2022"}
             title={"Formation chez OpenClassrooms"}
             subTitle={"Développeur web"}
             text={

@@ -35,7 +35,7 @@ function HomePage() {
         </div>
         <br />
         <p>
-          Actuellement en fin de formation de développeur web chez
+          Actuellement titulaire du diplôme de développeur web chez
           OpenClassrooms, je suis à la recherche d'une alternance afin de
           poursuivre mes études dans le domaine du développement web. Vous
           trouverez sur ce site mes informations personnelles et
